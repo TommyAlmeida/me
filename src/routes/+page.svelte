@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Cta from "../lib/components/Cta.svelte";
+  import Navabar from "../lib/components/Navabar.svelte";
+</script>
+
+<Navabar />
+<Cta />
+
+<style lang="postcss">
+  :global(html) {
+  }
+</style>
