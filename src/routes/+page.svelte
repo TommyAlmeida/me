@@ -1,9 +1,11 @@
 <script>
+  import Projects from "$lib/components/Projects.svelte";
   import Cta from "../lib/components/Cta.svelte";
-  import Navabar from "../lib/components/Navabar.svelte";
+  import Navbar from "../lib/components/Navbar.svelte";
 </script>
 
 <div class="container mx-auto">
-  <Navabar />
+  <Navbar />
   <Cta />
+  <Projects />
 </div>
