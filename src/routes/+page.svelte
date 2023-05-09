@@ -3,10 +3,7 @@
   import Navabar from "../lib/components/Navabar.svelte";
 </script>
 
-<Navabar />
-<Cta />
-
-<style lang="postcss">
-  :global(html) {
-  }
-</style>
+<div class="container mx-auto">
+  <Navabar />
+  <Cta />
+</div>

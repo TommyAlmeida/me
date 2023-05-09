@@ -1,13 +1,18 @@
-<header aria-label="Site Header" class="bg-transparent">
-  <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+<script>
+  import Button from "./Button.svelte";
+  import NavbarItem from "./NavbarItem.svelte";
+</script>
+
+<header aria-label="Site Header" class="bg-transparent mt-5">
+  <div class="max-w-screen-2xl px-4 sm:px-6 lg:px-8">
     <div class="flex h-16 items-center justify-between">
       <div class="md:flex md:items-center md:gap-12">
         <a class="block text-black font-bold font-sans" href="/">
           <span class="sr-only">Home</span>
 
           <svg
-            class="h-8"
-            viewBox="0 0 1500 1705"
+            class="h-10"
+            viewBox="0 0 1370 1705"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,7 +29,7 @@
                     height="804.375"
                   />
                 </g>
-                <g transform="matrix(2.06119,0,0,0.253528,-1265.26,521.063)">
+                <g transform="matrix(2.06119,0,0,0.240557,-1265.26,531.149)">
                   <rect
                     x="1001.97"
                     y="698.034"
@@ -32,8 +37,13 @@
                     height="804.375"
                   />
                 </g>
-                <g transform="matrix(1,0,0,1,20,-0.982802)">
-                  <ellipse cx="1360" cy="800.983" rx="100" ry="100.983" />
+                <g transform="matrix(0.37932,0,0,0.394895,749.671,576.649)">
+                  <circle
+                    cx="1525"
+                    cy="555"
+                    r="245"
+                    style="fill:rgb(37,99,235);"
+                  />
                 </g>
               </g>
             </g>
@@ -44,49 +54,23 @@
       <div class="hidden md:block">
         <nav aria-label="Site Nav">
           <ul class="flex items-center gap-6 text-2sm">
-            <li>
-              <a
-                class="text-gray-600 transition hover:text-gray-600/75"
-                href="/"
-              >
-                About
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-gray-600 transition hover:text-gray-600/75"
-                href="/"
-              >
-                Works
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-gray-600 transition hover:text-gray-600/75"
-                href="/"
-              >
-                Projects
-              </a>
-            </li>
+            <NavbarItem selected href="/">About</NavbarItem>
+            <NavbarItem href="/works">Works</NavbarItem>
+            <NavbarItem href="/projects">Projects</NavbarItem>
           </ul>
         </nav>
       </div>
 
       <div class="flex items-center gap-4">
         <div class="sm:flex sm:gap-4">
-          <a
-            class="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white shadow"
-            href="/"
+          <Button href="mailto:tomasrsduarte@gmail.com" rounded={false}
+            >Hire Me!</Button
           >
-            Lets Chat!
-          </a>
         </div>
 
         <div class="block md:hidden">
           <button
-            class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+            class="bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

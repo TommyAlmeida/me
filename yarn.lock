@@ -117,6 +117,11 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.17.18.tgz#3a8e57153905308db357fd02f57c180ee3a0a1fa"
   integrity sha512-qU25Ma1I3NqTSHJUOKi9sAH1/Mzuvlke0ioMJRthLXKm7JiSKVwFghlGbDLOO2sARECGhja4xYfRAZNPAkooYg==
 
+"@fontsource/ubuntu@^4.5.11":
+  version "4.5.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/ubuntu/-/ubuntu-4.5.11.tgz#71b75fda2f4b14aa20b39a7a3c8bc34c81fde609"
+  integrity sha512-c+B8A8r31hJLk8Ek7Svoz4GwjtInhc60LFM6XTr5TKtZbcct8TPNxJuKX4+hnqoWgcvy8s0Gj4mde4TcK/SgDQ==
+
 "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz#7e02e6eb5df901aaedb08514203b096614024098"
@@ -973,6 +978,13 @@ svelte-check@^3.0.1:
     svelte-preprocess "^5.0.3"
     typescript "^5.0.3"
 
+svelte-feather-icons@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/svelte-feather-icons/-/svelte-feather-icons-4.0.0.tgz#fdffcce3a81782008f7e621cb37a29d041630aef"
+  integrity sha512-4ieUsjp+VYa1r6y80jDt9zRiRUZyJNbESpRdHdJJhiBubyuXX96A7f1UZSK4olxzP6Qsg5ZAuyZlnmvD+/swAA==
+  dependencies:
+    svelte "^3.38.2"
+
 svelte-hmr@^0.15.1:
   version "0.15.1"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.15.1.tgz#d11d878a0bbb12ec1cba030f580cd2049f4ec86b"
@@ -988,6 +1000,11 @@ svelte-preprocess@^5.0.3:
     magic-string "^0.27.0"
     sorcery "^0.11.0"
     strip-indent "^3.0.0"
+
+svelte@^3.38.2:
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.59.1.tgz#3de3d56b9165748f32f3131589b8d183cabe7449"
+  integrity sha512-pKj8fEBmqf6mq3/NfrB9SLtcJcUvjYSWyePlfCqN9gujLB25RitWK8PvFzlwim6hD/We35KbPlRteuA6rnPGcQ==
 
 svelte@^3.54.0:
   version "3.59.0"
